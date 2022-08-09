@@ -1,5 +1,7 @@
 # ark-clone
 
+![ark-clone](https://xueyan.site/ark-clone/ast/project.png)
+
 React node `clone` tool in `a react kit`
 
 ## Document

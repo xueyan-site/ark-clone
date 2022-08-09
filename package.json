@@ -1,16 +1,18 @@
 {
   "name": "ark-clone",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "xueyan-site <xueyan@xueyan.site>",
   "license": "LGPL-3.0",
   "description": "React node clone tool in a react kit",
   "main": "dist/node",
   "types": "dist/def",
   "module": "dist/web",
+  "files": [
+    "dist/**/*"
+  ],
   "keywords": [
     "clone",
     "react",
-    "xueyan",
     "component",
     "typescript"
   ],
@@ -18,11 +20,8 @@
     "type": "git",
     "url": "https://github.com/xueyan-site/ark-clone.git"
   },
-  "files": [
-    "dist/**/*"
-  ],
   "scripts": {
-    "start": "sdin start",
+    "dev": "sdin dev",
     "build": "sdin build"
   },
   "dependencies": {
